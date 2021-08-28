@@ -1,0 +1,84 @@
+/* general styling */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* general styling end */
+
+/* body styling */
+body{
+    background-image: url('static/pix/bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* body styling end */
+/* header styling  */
+header{
+    display: flex;
+    width: 100%;
+    height: 80px;
+   
+    border-bottom: 3px solid black;
+
+}
+header h1{
+    text-align: center;
+    padding: 10px 40px;
+    margin: 10px 40px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.icon{
+    width: 30%;
+    height: 70px;
+    background-color: black;
+}
+.search{
+    
+   border: 3px solid black;
+    height: 30px;
+   margin: 8px auto;
+}
+
+/* header styling end */
+
+/* nav styling */
+
+nav{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+    display: flex;
+   
+    position: fixed;
+    top: 10;
+    z-index: 10;
+    border-bottom: 3px solid black;
+}
+nav  ul li{
+   margin: 20px 50px;
+   padding: 8px 40px;
+    display: inline;
+    text-align: center;
+    justify-content: space-evenly;
+    font-size: x-large;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+li:hover{
+    color: red;
+}
+/* nav styling end */
+
+/* audio */
+.audio{
+    width: 50%;
+   height: 60px;
+   margin: 200px 300px;
+   padding: 10px 30px;
+
+}
